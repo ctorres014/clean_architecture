@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean.Architecture.Domain\Clean.Architecture.Domain.csproj" />
+    <ProjectReference Include="..\Clean.ArchitectureDDD.Contracts\Clean.ArchitectureDDD.Contracts.csproj" />
+    <ProjectReference Include="..\Clean.ArchitectureDDD.DependencyInjection\Clean.ArchitectureDDD.DependencyInjection.csproj" />
+  </ItemGroup>
+
+</Project>
